@@ -1,4 +1,4 @@
-  /* Reset de estilos */
+ /* Reset de estilos */
  * {
     box-sizing: border-box;
     margin: 0;
@@ -83,7 +83,7 @@ body {
   
   .nav-icon-container img {
     margin-top: 14%;
-    margin-right: 10%;
+    margin-right: 50%;
     width: 40px;
     cursor: pointer;
   }
@@ -91,7 +91,7 @@ body {
   /* Botão de login */
   .login-button {
     background-color: #e63770;
-    margin-right: 10%;
+    margin-right: 50%;
     padding: 6px 12px;
     color: white;
     border: none;
@@ -165,10 +165,11 @@ body {
       z-index: 1001;
     }
     .user-name{
-      display: none;
+      font-size: 8px;
     }
   
     .login-button {
+
       padding: 5px 10px;
       font-size: 13px;
     }
@@ -202,7 +203,6 @@ body {
     }
   }
   
-
 
 
   .produto-container {

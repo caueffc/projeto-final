@@ -1,5 +1,5 @@
-/* Reset de estilos */
-* {
+ /* Reset de estilos */
+ * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Mulish', sans-serif;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
@@ -45,8 +45,8 @@ body {
   
   /* Logo */
   .logo img {
+    margin-top: 5%;
     margin-left: 5%;
-    margin-top: 14%;
     width: 170px;
     height: 90px;
   }
@@ -59,7 +59,7 @@ body {
   }
   
   .main-nav ul {
-    font-family: "Poppins", sans-serif;
+    font-family: "Mulish", sans-serif;
     font-weight: 300;
     font-style: normal;
     list-style: none;
@@ -82,7 +82,7 @@ body {
   }
   
   .nav-icon-container img {
-    margin-top: 28%;
+    margin-top: 14%;
     margin-right: 10%;
     width: 40px;
     cursor: pointer;
@@ -133,8 +133,9 @@ body {
     }
   
     .hamburger {
+      font-size: 20px;
       display: block;
-      top: 20%;
+      top: 0%;
       font-size: 28px;
       cursor: pointer;
       color: rgb(0, 0, 0);
@@ -165,6 +166,7 @@ body {
     }
     .user-name{
       display: none;
+      font-size: 15px;
     }
   
     .login-button {
@@ -200,6 +202,7 @@ body {
       display: flex;
     }
   }
+  
   
 /* MAIN */
 main {
