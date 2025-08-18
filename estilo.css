@@ -1193,13 +1193,16 @@ font-size: 25px;
 }
 
 .modal1-content {
+  margin-top: 10rem;
   background-color: #fff;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 40px;
   width: 90%;
   max-width: 400px;
   text-align: center;
   position: relative;
+    max-height: 80vh; /* altura máxima do modal */
+  overflow-y: auto; /* adiciona rolagem se o conteúdo for grande */
 }
 
 .close-btn1 {
